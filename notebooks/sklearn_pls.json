@@ -1,0 +1,173 @@
+{
+  "irVersion": "7",
+  "producerName": "skl2onnx",
+  "producerVersion": "1.10.0",
+  "domain": "ai.onnx",
+  "modelVersion": "0",
+  "docString": "",
+  "graph": {
+    "node": [
+      {
+        "input": [
+          "X",
+          "Su_Subcst"
+        ],
+        "output": [
+          "Su_C0"
+        ],
+        "name": "Su_Sub",
+        "opType": "Sub",
+        "domain": ""
+      },
+      {
+        "input": [
+          "Su_C0",
+          "Di_Divcst"
+        ],
+        "output": [
+          "Di_C0"
+        ],
+        "name": "Di_Div",
+        "opType": "Div",
+        "domain": ""
+      },
+      {
+        "input": [
+          "Di_C0",
+          "Ma_MatMulcst"
+        ],
+        "output": [
+          "Ma_Y0"
+        ],
+        "name": "Ma_MatMul",
+        "opType": "MatMul",
+        "domain": ""
+      },
+      {
+        "input": [
+          "Ma_Y0",
+          "Ad_Addcst"
+        ],
+        "output": [
+          "variable"
+        ],
+        "name": "Ad_Add",
+        "opType": "Add",
+        "domain": ""
+      }
+    ],
+    "name": "ONNX(PLSRegression)",
+    "initializer": [
+      {
+        "dims": [
+          "10"
+        ],
+        "dataType": 1,
+        "floatData": [
+          -3.6342849e-16,
+          1.3083426e-16,
+          -8.045349e-16,
+          1.2816546e-16,
+          -8.835315e-17,
+          1.3270242e-16,
+          -4.5746465e-16,
+          3.7773016e-16,
+          -3.8308542e-16,
+          -3.412882e-16
+        ],
+        "name": "Su_Subcst"
+      },
+      {
+        "dims": [
+          "10"
+        ],
+        "dataType": 1,
+        "floatData": [
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.04761905
+        ],
+        "name": "Di_Divcst"
+      },
+      {
+        "dims": [
+          "10",
+          "1"
+        ],
+        "dataType": 1,
+        "floatData": [
+          -0.50076795,
+          -11.395746,
+          25.259092,
+          15.304839,
+          -2.721938,
+          -5.9040446,
+          -10.161326,
+          5.892241,
+          22.073849,
+          3.1736338
+        ],
+        "name": "Ma_MatMulcst"
+      },
+      {
+        "dims": [
+          "1"
+        ],
+        "dataType": 1,
+        "floatData": [
+          152.13348
+        ],
+        "name": "Ad_Addcst"
+      }
+    ],
+    "input": [
+      {
+        "name": "X",
+        "type": {
+          "tensorType": {
+            "elemType": 1,
+            "shape": {
+              "dim": [
+                {},
+                {
+                  "dimValue": "10"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "output": [
+      {
+        "name": "variable",
+        "type": {
+          "tensorType": {
+            "elemType": 1,
+            "shape": {
+              "dim": [
+                {},
+                {
+                  "dimValue": "1"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "opsetImport": [
+    {
+      "domain": "",
+      "version": "12"
+    }
+  ]
+}

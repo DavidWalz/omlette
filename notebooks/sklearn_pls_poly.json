@@ -1,0 +1,3251 @@
+{
+  "irVersion": "7",
+  "producerName": "skl2onnx",
+  "producerVersion": "1.10.0",
+  "domain": "ai.onnx",
+  "modelVersion": "0",
+  "docString": "",
+  "graph": {
+    "node": [
+      {
+        "input": [
+          "X",
+          "comb1"
+        ],
+        "output": [
+          "col1"
+        ],
+        "name": "ArrayFeatureExtractor1",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb2"
+        ],
+        "output": [
+          "col2"
+        ],
+        "name": "ArrayFeatureExtractor2",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb5"
+        ],
+        "output": [
+          "col5"
+        ],
+        "name": "ArrayFeatureExtractor5",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb3"
+        ],
+        "output": [
+          "col3"
+        ],
+        "name": "ArrayFeatureExtractor3",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb4"
+        ],
+        "output": [
+          "col4"
+        ],
+        "name": "ArrayFeatureExtractor4",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb6"
+        ],
+        "output": [
+          "col6"
+        ],
+        "name": "ArrayFeatureExtractor6",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb10"
+        ],
+        "output": [
+          "col10"
+        ],
+        "name": "ArrayFeatureExtractor10",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb9"
+        ],
+        "output": [
+          "col9"
+        ],
+        "name": "ArrayFeatureExtractor9",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb8"
+        ],
+        "output": [
+          "col8"
+        ],
+        "name": "ArrayFeatureExtractor8",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb7"
+        ],
+        "output": [
+          "col7"
+        ],
+        "name": "ArrayFeatureExtractor7",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb11"
+        ],
+        "output": [
+          "col11"
+        ],
+        "name": "ArrayFeatureExtractor11",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb12"
+        ],
+        "output": [
+          "col12"
+        ],
+        "name": "ArrayFeatureExtractor12",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb13"
+        ],
+        "output": [
+          "col13"
+        ],
+        "name": "ArrayFeatureExtractor13",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb14"
+        ],
+        "output": [
+          "col14"
+        ],
+        "name": "ArrayFeatureExtractor14",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb15"
+        ],
+        "output": [
+          "col15"
+        ],
+        "name": "ArrayFeatureExtractor15",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb16"
+        ],
+        "output": [
+          "col16"
+        ],
+        "name": "ArrayFeatureExtractor16",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb17"
+        ],
+        "output": [
+          "col17"
+        ],
+        "name": "ArrayFeatureExtractor17",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb"
+        ],
+        "output": [
+          "col"
+        ],
+        "name": "ArrayFeatureExtractor",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb60"
+        ],
+        "output": [
+          "col60"
+        ],
+        "name": "ArrayFeatureExtractor60",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb61"
+        ],
+        "output": [
+          "col61"
+        ],
+        "name": "ArrayFeatureExtractor61",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb62"
+        ],
+        "output": [
+          "col62"
+        ],
+        "name": "ArrayFeatureExtractor62",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb63"
+        ],
+        "output": [
+          "col63"
+        ],
+        "name": "ArrayFeatureExtractor63",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb64"
+        ],
+        "output": [
+          "col64"
+        ],
+        "name": "ArrayFeatureExtractor64",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb46"
+        ],
+        "output": [
+          "col46"
+        ],
+        "name": "ArrayFeatureExtractor46",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb47"
+        ],
+        "output": [
+          "col47"
+        ],
+        "name": "ArrayFeatureExtractor47",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb48"
+        ],
+        "output": [
+          "col48"
+        ],
+        "name": "ArrayFeatureExtractor48",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb49"
+        ],
+        "output": [
+          "col49"
+        ],
+        "name": "ArrayFeatureExtractor49",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb50"
+        ],
+        "output": [
+          "col50"
+        ],
+        "name": "ArrayFeatureExtractor50",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb51"
+        ],
+        "output": [
+          "col51"
+        ],
+        "name": "ArrayFeatureExtractor51",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb52"
+        ],
+        "output": [
+          "col52"
+        ],
+        "name": "ArrayFeatureExtractor52",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb53"
+        ],
+        "output": [
+          "col53"
+        ],
+        "name": "ArrayFeatureExtractor53",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb54"
+        ],
+        "output": [
+          "col54"
+        ],
+        "name": "ArrayFeatureExtractor54",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb55"
+        ],
+        "output": [
+          "col55"
+        ],
+        "name": "ArrayFeatureExtractor55",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb56"
+        ],
+        "output": [
+          "col56"
+        ],
+        "name": "ArrayFeatureExtractor56",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb57"
+        ],
+        "output": [
+          "col57"
+        ],
+        "name": "ArrayFeatureExtractor57",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb58"
+        ],
+        "output": [
+          "col58"
+        ],
+        "name": "ArrayFeatureExtractor58",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb59"
+        ],
+        "output": [
+          "col59"
+        ],
+        "name": "ArrayFeatureExtractor59",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb32"
+        ],
+        "output": [
+          "col32"
+        ],
+        "name": "ArrayFeatureExtractor32",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb33"
+        ],
+        "output": [
+          "col33"
+        ],
+        "name": "ArrayFeatureExtractor33",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb34"
+        ],
+        "output": [
+          "col34"
+        ],
+        "name": "ArrayFeatureExtractor34",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb35"
+        ],
+        "output": [
+          "col35"
+        ],
+        "name": "ArrayFeatureExtractor35",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb36"
+        ],
+        "output": [
+          "col36"
+        ],
+        "name": "ArrayFeatureExtractor36",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb37"
+        ],
+        "output": [
+          "col37"
+        ],
+        "name": "ArrayFeatureExtractor37",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb38"
+        ],
+        "output": [
+          "col38"
+        ],
+        "name": "ArrayFeatureExtractor38",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb39"
+        ],
+        "output": [
+          "col39"
+        ],
+        "name": "ArrayFeatureExtractor39",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb40"
+        ],
+        "output": [
+          "col40"
+        ],
+        "name": "ArrayFeatureExtractor40",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb41"
+        ],
+        "output": [
+          "col41"
+        ],
+        "name": "ArrayFeatureExtractor41",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb42"
+        ],
+        "output": [
+          "col42"
+        ],
+        "name": "ArrayFeatureExtractor42",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb43"
+        ],
+        "output": [
+          "col43"
+        ],
+        "name": "ArrayFeatureExtractor43",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb44"
+        ],
+        "output": [
+          "col44"
+        ],
+        "name": "ArrayFeatureExtractor44",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb45"
+        ],
+        "output": [
+          "col45"
+        ],
+        "name": "ArrayFeatureExtractor45",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb18"
+        ],
+        "output": [
+          "col18"
+        ],
+        "name": "ArrayFeatureExtractor18",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb19"
+        ],
+        "output": [
+          "col19"
+        ],
+        "name": "ArrayFeatureExtractor19",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb20"
+        ],
+        "output": [
+          "col20"
+        ],
+        "name": "ArrayFeatureExtractor20",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb21"
+        ],
+        "output": [
+          "col21"
+        ],
+        "name": "ArrayFeatureExtractor21",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb22"
+        ],
+        "output": [
+          "col22"
+        ],
+        "name": "ArrayFeatureExtractor22",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb23"
+        ],
+        "output": [
+          "col23"
+        ],
+        "name": "ArrayFeatureExtractor23",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb24"
+        ],
+        "output": [
+          "col24"
+        ],
+        "name": "ArrayFeatureExtractor24",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb25"
+        ],
+        "output": [
+          "col25"
+        ],
+        "name": "ArrayFeatureExtractor25",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb26"
+        ],
+        "output": [
+          "col26"
+        ],
+        "name": "ArrayFeatureExtractor26",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb27"
+        ],
+        "output": [
+          "col27"
+        ],
+        "name": "ArrayFeatureExtractor27",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb28"
+        ],
+        "output": [
+          "col28"
+        ],
+        "name": "ArrayFeatureExtractor28",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb29"
+        ],
+        "output": [
+          "col29"
+        ],
+        "name": "ArrayFeatureExtractor29",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb30"
+        ],
+        "output": [
+          "col30"
+        ],
+        "name": "ArrayFeatureExtractor30",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "X",
+          "comb31"
+        ],
+        "output": [
+          "col31"
+        ],
+        "name": "ArrayFeatureExtractor31",
+        "opType": "ArrayFeatureExtractor",
+        "domain": "ai.onnx.ml"
+      },
+      {
+        "input": [
+          "col1"
+        ],
+        "output": [
+          "prod1"
+        ],
+        "name": "ReduceProd1",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col4"
+        ],
+        "output": [
+          "prod4"
+        ],
+        "name": "ReduceProd4",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col2"
+        ],
+        "output": [
+          "prod2"
+        ],
+        "name": "ReduceProd2",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col3"
+        ],
+        "output": [
+          "prod3"
+        ],
+        "name": "ReduceProd3",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col5"
+        ],
+        "output": [
+          "prod5"
+        ],
+        "name": "ReduceProd5",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col6"
+        ],
+        "output": [
+          "prod6"
+        ],
+        "name": "ReduceProd6",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col10"
+        ],
+        "output": [
+          "prod10"
+        ],
+        "name": "ReduceProd10",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col7"
+        ],
+        "output": [
+          "prod7"
+        ],
+        "name": "ReduceProd7",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col8"
+        ],
+        "output": [
+          "prod8"
+        ],
+        "name": "ReduceProd8",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col9"
+        ],
+        "output": [
+          "prod9"
+        ],
+        "name": "ReduceProd9",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col11"
+        ],
+        "output": [
+          "prod11"
+        ],
+        "name": "ReduceProd11",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col12"
+        ],
+        "output": [
+          "prod12"
+        ],
+        "name": "ReduceProd12",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col13"
+        ],
+        "output": [
+          "prod13"
+        ],
+        "name": "ReduceProd13",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col14"
+        ],
+        "output": [
+          "prod14"
+        ],
+        "name": "ReduceProd14",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col15"
+        ],
+        "output": [
+          "prod15"
+        ],
+        "name": "ReduceProd15",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col16"
+        ],
+        "output": [
+          "prod16"
+        ],
+        "name": "ReduceProd16",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col"
+        ],
+        "output": [
+          "prod"
+        ],
+        "name": "ReduceProd",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col59"
+        ],
+        "output": [
+          "prod59"
+        ],
+        "name": "ReduceProd59",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col60"
+        ],
+        "output": [
+          "prod60"
+        ],
+        "name": "ReduceProd60",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col61"
+        ],
+        "output": [
+          "prod61"
+        ],
+        "name": "ReduceProd61",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col62"
+        ],
+        "output": [
+          "prod62"
+        ],
+        "name": "ReduceProd62",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col63"
+        ],
+        "output": [
+          "prod63"
+        ],
+        "name": "ReduceProd63",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col64"
+        ],
+        "output": [
+          "prod64"
+        ],
+        "name": "ReduceProd64",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col45"
+        ],
+        "output": [
+          "prod45"
+        ],
+        "name": "ReduceProd45",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col46"
+        ],
+        "output": [
+          "prod46"
+        ],
+        "name": "ReduceProd46",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col47"
+        ],
+        "output": [
+          "prod47"
+        ],
+        "name": "ReduceProd47",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col48"
+        ],
+        "output": [
+          "prod48"
+        ],
+        "name": "ReduceProd48",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col49"
+        ],
+        "output": [
+          "prod49"
+        ],
+        "name": "ReduceProd49",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col50"
+        ],
+        "output": [
+          "prod50"
+        ],
+        "name": "ReduceProd50",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col51"
+        ],
+        "output": [
+          "prod51"
+        ],
+        "name": "ReduceProd51",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col52"
+        ],
+        "output": [
+          "prod52"
+        ],
+        "name": "ReduceProd52",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col53"
+        ],
+        "output": [
+          "prod53"
+        ],
+        "name": "ReduceProd53",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col54"
+        ],
+        "output": [
+          "prod54"
+        ],
+        "name": "ReduceProd54",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col55"
+        ],
+        "output": [
+          "prod55"
+        ],
+        "name": "ReduceProd55",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col56"
+        ],
+        "output": [
+          "prod56"
+        ],
+        "name": "ReduceProd56",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col57"
+        ],
+        "output": [
+          "prod57"
+        ],
+        "name": "ReduceProd57",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col58"
+        ],
+        "output": [
+          "prod58"
+        ],
+        "name": "ReduceProd58",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col31"
+        ],
+        "output": [
+          "prod31"
+        ],
+        "name": "ReduceProd31",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col32"
+        ],
+        "output": [
+          "prod32"
+        ],
+        "name": "ReduceProd32",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col33"
+        ],
+        "output": [
+          "prod33"
+        ],
+        "name": "ReduceProd33",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col34"
+        ],
+        "output": [
+          "prod34"
+        ],
+        "name": "ReduceProd34",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col35"
+        ],
+        "output": [
+          "prod35"
+        ],
+        "name": "ReduceProd35",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col36"
+        ],
+        "output": [
+          "prod36"
+        ],
+        "name": "ReduceProd36",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col37"
+        ],
+        "output": [
+          "prod37"
+        ],
+        "name": "ReduceProd37",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col38"
+        ],
+        "output": [
+          "prod38"
+        ],
+        "name": "ReduceProd38",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col39"
+        ],
+        "output": [
+          "prod39"
+        ],
+        "name": "ReduceProd39",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col40"
+        ],
+        "output": [
+          "prod40"
+        ],
+        "name": "ReduceProd40",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col41"
+        ],
+        "output": [
+          "prod41"
+        ],
+        "name": "ReduceProd41",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col42"
+        ],
+        "output": [
+          "prod42"
+        ],
+        "name": "ReduceProd42",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col43"
+        ],
+        "output": [
+          "prod43"
+        ],
+        "name": "ReduceProd43",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col44"
+        ],
+        "output": [
+          "prod44"
+        ],
+        "name": "ReduceProd44",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col17"
+        ],
+        "output": [
+          "prod17"
+        ],
+        "name": "ReduceProd17",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col18"
+        ],
+        "output": [
+          "prod18"
+        ],
+        "name": "ReduceProd18",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col19"
+        ],
+        "output": [
+          "prod19"
+        ],
+        "name": "ReduceProd19",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col20"
+        ],
+        "output": [
+          "prod20"
+        ],
+        "name": "ReduceProd20",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col21"
+        ],
+        "output": [
+          "prod21"
+        ],
+        "name": "ReduceProd21",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col22"
+        ],
+        "output": [
+          "prod22"
+        ],
+        "name": "ReduceProd22",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col23"
+        ],
+        "output": [
+          "prod23"
+        ],
+        "name": "ReduceProd23",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col24"
+        ],
+        "output": [
+          "prod24"
+        ],
+        "name": "ReduceProd24",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col25"
+        ],
+        "output": [
+          "prod25"
+        ],
+        "name": "ReduceProd25",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col26"
+        ],
+        "output": [
+          "prod26"
+        ],
+        "name": "ReduceProd26",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col27"
+        ],
+        "output": [
+          "prod27"
+        ],
+        "name": "ReduceProd27",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col28"
+        ],
+        "output": [
+          "prod28"
+        ],
+        "name": "ReduceProd28",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col29"
+        ],
+        "output": [
+          "prod29"
+        ],
+        "name": "ReduceProd29",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "col30"
+        ],
+        "output": [
+          "prod30"
+        ],
+        "name": "ReduceProd30",
+        "opType": "ReduceProd",
+        "attribute": [
+          {
+            "name": "axes",
+            "ints": [
+              "1"
+            ],
+            "type": "INTS"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "prod64"
+        ],
+        "output": [
+          "shape"
+        ],
+        "name": "N130",
+        "opType": "Shape",
+        "domain": ""
+      },
+      {
+        "input": [
+          "shape"
+        ],
+        "output": [
+          "unit"
+        ],
+        "name": "N131",
+        "opType": "ConstantOfShape",
+        "attribute": [
+          {
+            "name": "value",
+            "t": {
+              "dims": [
+                "1"
+              ],
+              "dataType": 1,
+              "floatData": [
+                1.0
+              ],
+              "name": "ONE"
+            },
+            "type": "TENSOR"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "unit",
+          "prod",
+          "prod1",
+          "prod2",
+          "prod3",
+          "prod4",
+          "prod5",
+          "prod6",
+          "prod7",
+          "prod8",
+          "prod9",
+          "prod10",
+          "prod11",
+          "prod12",
+          "prod13",
+          "prod14",
+          "prod15",
+          "prod16",
+          "prod17",
+          "prod18",
+          "prod19",
+          "prod20",
+          "prod21",
+          "prod22",
+          "prod23",
+          "prod24",
+          "prod25",
+          "prod26",
+          "prod27",
+          "prod28",
+          "prod29",
+          "prod30",
+          "prod31",
+          "prod32",
+          "prod33",
+          "prod34",
+          "prod35",
+          "prod36",
+          "prod37",
+          "prod38",
+          "prod39",
+          "prod40",
+          "prod41",
+          "prod42",
+          "prod43",
+          "prod44",
+          "prod45",
+          "prod46",
+          "prod47",
+          "prod48",
+          "prod49",
+          "prod50",
+          "prod51",
+          "prod52",
+          "prod53",
+          "prod54",
+          "prod55",
+          "prod56",
+          "prod57",
+          "prod58",
+          "prod59",
+          "prod60",
+          "prod61",
+          "prod62",
+          "prod63",
+          "prod64"
+        ],
+        "output": [
+          "variable1"
+        ],
+        "name": "Concat",
+        "opType": "Concat",
+        "attribute": [
+          {
+            "name": "axis",
+            "i": "1",
+            "type": "INT"
+          }
+        ],
+        "domain": ""
+      },
+      {
+        "input": [
+          "variable1",
+          "Su_Subcst"
+        ],
+        "output": [
+          "Su_C0"
+        ],
+        "name": "Su_Sub",
+        "opType": "Sub",
+        "domain": ""
+      },
+      {
+        "input": [
+          "Su_C0",
+          "Di_Divcst"
+        ],
+        "output": [
+          "Di_C0"
+        ],
+        "name": "Di_Div",
+        "opType": "Div",
+        "domain": ""
+      },
+      {
+        "input": [
+          "Di_C0",
+          "Ma_MatMulcst"
+        ],
+        "output": [
+          "Ma_Y0"
+        ],
+        "name": "Ma_MatMul",
+        "opType": "MatMul",
+        "domain": ""
+      },
+      {
+        "input": [
+          "Ma_Y0",
+          "Ad_Addcst"
+        ],
+        "output": [
+          "variable"
+        ],
+        "name": "Ad_Add",
+        "opType": "Add",
+        "domain": ""
+      }
+    ],
+    "name": "ONNX(Pipeline)",
+    "initializer": [
+      {
+        "dims": [
+          "1"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "0"
+        ],
+        "name": "comb"
+      },
+      {
+        "dims": [
+          "1"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "1"
+        ],
+        "name": "comb1"
+      },
+      {
+        "dims": [
+          "1"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "2"
+        ],
+        "name": "comb2"
+      },
+      {
+        "dims": [
+          "1"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "3"
+        ],
+        "name": "comb3"
+      },
+      {
+        "dims": [
+          "1"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "4"
+        ],
+        "name": "comb4"
+      },
+      {
+        "dims": [
+          "1"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "5"
+        ],
+        "name": "comb5"
+      },
+      {
+        "dims": [
+          "1"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "6"
+        ],
+        "name": "comb6"
+      },
+      {
+        "dims": [
+          "1"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "7"
+        ],
+        "name": "comb7"
+      },
+      {
+        "dims": [
+          "1"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "8"
+        ],
+        "name": "comb8"
+      },
+      {
+        "dims": [
+          "1"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "9"
+        ],
+        "name": "comb9"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "0",
+          "0"
+        ],
+        "name": "comb10"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "0",
+          "1"
+        ],
+        "name": "comb11"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "0",
+          "2"
+        ],
+        "name": "comb12"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "0",
+          "3"
+        ],
+        "name": "comb13"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "0",
+          "4"
+        ],
+        "name": "comb14"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "0",
+          "5"
+        ],
+        "name": "comb15"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "0",
+          "6"
+        ],
+        "name": "comb16"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "0",
+          "7"
+        ],
+        "name": "comb17"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "0",
+          "8"
+        ],
+        "name": "comb18"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "0",
+          "9"
+        ],
+        "name": "comb19"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "1",
+          "1"
+        ],
+        "name": "comb20"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "1",
+          "2"
+        ],
+        "name": "comb21"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "1",
+          "3"
+        ],
+        "name": "comb22"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "1",
+          "4"
+        ],
+        "name": "comb23"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "1",
+          "5"
+        ],
+        "name": "comb24"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "1",
+          "6"
+        ],
+        "name": "comb25"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "1",
+          "7"
+        ],
+        "name": "comb26"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "1",
+          "8"
+        ],
+        "name": "comb27"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "1",
+          "9"
+        ],
+        "name": "comb28"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "2",
+          "2"
+        ],
+        "name": "comb29"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "2",
+          "3"
+        ],
+        "name": "comb30"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "2",
+          "4"
+        ],
+        "name": "comb31"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "2",
+          "5"
+        ],
+        "name": "comb32"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "2",
+          "6"
+        ],
+        "name": "comb33"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "2",
+          "7"
+        ],
+        "name": "comb34"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "2",
+          "8"
+        ],
+        "name": "comb35"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "2",
+          "9"
+        ],
+        "name": "comb36"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "3",
+          "3"
+        ],
+        "name": "comb37"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "3",
+          "4"
+        ],
+        "name": "comb38"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "3",
+          "5"
+        ],
+        "name": "comb39"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "3",
+          "6"
+        ],
+        "name": "comb40"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "3",
+          "7"
+        ],
+        "name": "comb41"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "3",
+          "8"
+        ],
+        "name": "comb42"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "3",
+          "9"
+        ],
+        "name": "comb43"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "4",
+          "4"
+        ],
+        "name": "comb44"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "4",
+          "5"
+        ],
+        "name": "comb45"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "4",
+          "6"
+        ],
+        "name": "comb46"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "4",
+          "7"
+        ],
+        "name": "comb47"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "4",
+          "8"
+        ],
+        "name": "comb48"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "4",
+          "9"
+        ],
+        "name": "comb49"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "5",
+          "5"
+        ],
+        "name": "comb50"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "5",
+          "6"
+        ],
+        "name": "comb51"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "5",
+          "7"
+        ],
+        "name": "comb52"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "5",
+          "8"
+        ],
+        "name": "comb53"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "5",
+          "9"
+        ],
+        "name": "comb54"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "6",
+          "6"
+        ],
+        "name": "comb55"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "6",
+          "7"
+        ],
+        "name": "comb56"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "6",
+          "8"
+        ],
+        "name": "comb57"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "6",
+          "9"
+        ],
+        "name": "comb58"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "7",
+          "7"
+        ],
+        "name": "comb59"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "7",
+          "8"
+        ],
+        "name": "comb60"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "7",
+          "9"
+        ],
+        "name": "comb61"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "8",
+          "8"
+        ],
+        "name": "comb62"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "8",
+          "9"
+        ],
+        "name": "comb63"
+      },
+      {
+        "dims": [
+          "2"
+        ],
+        "dataType": 7,
+        "int64Data": [
+          "9",
+          "9"
+        ],
+        "name": "comb64"
+      },
+      {
+        "dims": [
+          "66"
+        ],
+        "dataType": 1,
+        "floatData": [
+          1.0,
+          -3.6342849e-16,
+          1.3083426e-16,
+          -8.045349e-16,
+          1.2816546e-16,
+          -8.835315e-17,
+          1.3270242e-16,
+          -4.5746465e-16,
+          3.7773016e-16,
+          -3.8308542e-16,
+          -3.412882e-16,
+          0.0022624435,
+          0.00039307037,
+          0.00041874358,
+          0.00075888395,
+          0.0005883729,
+          0.0004960252,
+          -0.00017009271,
+          0.0004611785,
+          0.0006126172,
+          0.0006826493,
+          0.0022624435,
+          0.00019946018,
+          0.00054527866,
+          7.9811805e-05,
+          0.0003227087,
+          -0.00085766887,
+          0.00075139164,
+          0.00033918,
+          0.00047088962,
+          0.0022624435,
+          0.0008946048,
+          0.0005651073,
+          0.00059088215,
+          -0.0008298891,
+          0.00093621406,
+          0.0010094087,
+          0.0008793665,
+          0.0022624435,
+          0.000548574,
+          0.00041981408,
+          -0.00040443713,
+          0.00058292615,
+          0.000890222,
+          0.00088332436,
+          0.0022624435,
+          0.0020286492,
+          0.00011655965,
+          0.0012267133,
+          0.0011662913,
+          0.00073691574,
+          0.0022624435,
+          -0.0004444686,
+          0.0014927984,
+          0.00072025653,
+          0.00065746694,
+          0.0022624435,
+          -0.001670798,
+          -0.0009017579,
+          -0.0006192247,
+          0.0022624435,
+          0.0013978675,
+          0.0009439188,
+          0.0022624435,
+          0.0010512907,
+          0.0022624435
+        ],
+        "name": "Su_Subcst"
+      },
+      {
+        "dims": [
+          "66"
+        ],
+        "dataType": 1,
+        "floatData": [
+          1.0,
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.04761905,
+          0.002605055,
+          0.0022264563,
+          0.0022657085,
+          0.0021198292,
+          0.0023242433,
+          0.0022684212,
+          0.0020454652,
+          0.002201159,
+          0.0022592894,
+          0.0021303596,
+          0.00028754678,
+          0.0022445894,
+          0.002183657,
+          0.0022755153,
+          0.0022527725,
+          0.0020743723,
+          0.0021504285,
+          0.0022418457,
+          0.0022122602,
+          0.003267015,
+          0.0024063021,
+          0.002186823,
+          0.0021625115,
+          0.0021275312,
+          0.0021717995,
+          0.0021594989,
+          0.0022842395,
+          0.0027365224,
+          0.0022060222,
+          0.0021850106,
+          0.0023149678,
+          0.0022031167,
+          0.0021244304,
+          0.002344679,
+          0.003372334,
+          0.0033882784,
+          0.002155698,
+          0.0027433962,
+          0.0022723016,
+          0.0021489891,
+          0.0036388843,
+          0.0021987874,
+          0.0030305763,
+          0.0021625592,
+          0.0022213752,
+          0.0038948215,
+          0.0025353855,
+          0.0021075925,
+          0.0021173584,
+          0.0035277777,
+          0.0024483772,
+          0.0024221248,
+          0.0030837432,
+          0.0024030763,
+          0.0033753174
+        ],
+        "name": "Di_Divcst"
+      },
+      {
+        "dims": [
+          "66",
+          "1"
+        ],
+        "dataType": 1,
+        "floatData": [
+          0.0,
+          2.589332,
+          -6.499499,
+          20.666641,
+          14.326064,
+          -0.53767586,
+          -3.1975098,
+          -9.274637,
+          6.907322,
+          18.623167,
+          6.508783,
+          3.2675936,
+          5.814678,
+          -1.20694,
+          3.6344643,
+          -1.0722954,
+          -3.570502,
+          1.9887979,
+          -0.6259157,
+          3.0564618,
+          2.2662919,
+          -6.499499,
+          1.7663854,
+          2.4971018,
+          1.1412697,
+          -0.45527285,
+          2.4957716,
+          -0.42969567,
+          1.0407917,
+          0.5021715,
+          7.14654,
+          4.6293826,
+          -1.6744492,
+          -0.995342,
+          -0.98038036,
+          0.53994745,
+          -0.16851981,
+          1.6850977,
+          2.0097687,
+          1.6954775,
+          0.6495233,
+          3.1023304,
+          -1.9730333,
+          0.09424014,
+          -2.5720477,
+          1.1162158,
+          0.503843,
+          1.2937306,
+          -1.1507909,
+          -0.16774525,
+          0.30924526,
+          -0.48715004,
+          0.15167505,
+          0.10122526,
+          0.80269414,
+          0.6677154,
+          -0.25833213,
+          -1.4911582,
+          2.734181,
+          0.51042306,
+          2.1460724,
+          -1.8132861,
+          1.9292226,
+          -2.6705625,
+          -1.1282865,
+          1.7457387
+        ],
+        "name": "Ma_MatMulcst"
+      },
+      {
+        "dims": [
+          "1"
+        ],
+        "dataType": 1,
+        "floatData": [
+          152.13348
+        ],
+        "name": "Ad_Addcst"
+      }
+    ],
+    "input": [
+      {
+        "name": "X",
+        "type": {
+          "tensorType": {
+            "elemType": 1,
+            "shape": {
+              "dim": [
+                {},
+                {
+                  "dimValue": "10"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "output": [
+      {
+        "name": "variable",
+        "type": {
+          "tensorType": {
+            "elemType": 1,
+            "shape": {
+              "dim": [
+                {},
+                {
+                  "dimValue": "1"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "opsetImport": [
+    {
+      "domain": "",
+      "version": "12"
+    },
+    {
+      "domain": "ai.onnx.ml",
+      "version": "1"
+    }
+  ]
+}
